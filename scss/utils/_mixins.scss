@@ -5,3 +5,11 @@
     background-color: $primary_color;
     height: auto;
 }
+
+// Paramètres main
+@mixin main
+{
+    background-color: $body_color;
+    margin: auto;
+    padding-bottom: 40px;
+}

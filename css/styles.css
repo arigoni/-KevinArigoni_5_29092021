@@ -36,4 +36,27 @@ header a img {
   margin: auto;
 }
 
+main {
+  background-color: #ffffff;
+  margin: auto;
+  padding-bottom: 40px;
+}
+main h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+}
+main h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #454545;
+  text-align: center;
+  margin: auto;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */

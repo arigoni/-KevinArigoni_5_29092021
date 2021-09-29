@@ -1,0 +1,7 @@
+// Paramètres header
+@mixin header {
+    font-family: $main_font;
+    font-size: 1.3em;
+    background-color: $primary_color;
+    height: auto;
+}

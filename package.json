@@ -1,0 +1,25 @@
+{
+  "name": "p5--orinoco",
+  "version": "1.0.0",
+  "description": "P5- Orinoco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arigoni/-KevinArigoni_5_29092021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arigoni/-KevinArigoni_5_29092021/issues"
+  },
+  "homepage": "https://github.com/arigoni/-KevinArigoni_5_29092021#readme",
+  "devDependencies": {
+    "orinoco-backend": "file:JWDP5"
+  },
+  "dependencies": {
+    "uuid": "^7.0.3"
+  }
+}

@@ -17,6 +17,10 @@ main {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .mainTeddies {
+        @include flex_center;
+        flex-wrap: wrap;
+    }
 }
 
 // section

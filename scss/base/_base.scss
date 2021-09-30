@@ -2,3 +2,10 @@
 body {
     margin: auto;
 }
+
+.main_title {
+    color: $title1;
+    &_2 {
+        color: $title2;
+    }
+}

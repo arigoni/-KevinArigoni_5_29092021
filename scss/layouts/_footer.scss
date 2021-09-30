@@ -1,0 +1,27 @@
+footer {
+    @include footer;
+    @include flex_column;
+    h2 {
+        font-family: $main_font;
+        font-size: 1em;
+        font-weight: 400;
+        color: $main_color;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    a {
+        color: $title1;
+        font-family: $main_font;
+        font-size: 0.9em;
+        text-decoration: none;
+        &:hover{
+            color: $title2;
+        }
+    }
+    .footerLink{
+        margin: auto;
+        padding-bottom: 12px;
+    }
+}

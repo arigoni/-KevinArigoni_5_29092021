@@ -7,9 +7,69 @@
 }
 
 // Paramètres main
-@mixin main
-{
+@mixin main {
     background-color: $body_color;
     margin: auto;
     padding-bottom: 40px;
+}
+
+// paramètres section
+@mixin section {
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    font-family: $main_font;
+    box-shadow: $box_shadow;
+    margin: 30px auto 30px auto;
+    padding: 20px;
+    background-color: $title1;
+    text-decoration: none;
+}
+
+// paramètre des boutons de validation
+@mixin submit {
+    width: auto;
+    border-radius: 10px;
+    margin: 20px auto 30px auto;
+    background-color: $body_color;
+    font-family: $main_font;
+    color: $title1;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 8px;
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
+    &:hover {
+        background-color: $primary_color;
+        transform: scale(1.1);
+        color: $title2;
+    }
+}
+
+// Paramètres footer
+@mixin footer {
+    margin: auto;
+    height: auto;
+    background-color: $primary_color;
+    color: $main_color;
+    position: sticky;
+    bottom: 0;
+}
+
+// Paramètres flex
+@mixin flex_column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin flex_center {
+    display: flex;
+    justify-content: center;
+}
+
+
+@mixin flex_space_between {
+    display: flex;
+	justify-content: space-between;
 }

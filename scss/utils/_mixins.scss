@@ -15,8 +15,9 @@
 
 // paramètres section
 @mixin section {
-    width: 500px;
-    height: 350px;
+    width: 350px;
+    height: 200px;
+    border-radius: 1rem;
     text-align: center;
     font-family: $main_font;
     box-shadow: $box_shadow;

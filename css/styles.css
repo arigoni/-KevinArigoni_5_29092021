@@ -101,13 +101,14 @@ main h2 {
 }
 main .mainTeddies {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 section a {
-  width: 500px;
-  height: 350px;
+  width: 350px;
+  height: 200px;
+  border-radius: 1rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   box-shadow: 0 0 20px #bababa;

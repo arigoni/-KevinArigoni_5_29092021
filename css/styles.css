@@ -302,6 +302,7 @@ section a .teddies_ref p {
   margin: 20px auto 10px auto;
   height: auto;
   width: 70%;
+  border-radius: 1rem;
 }
 .teddy_ref h3 {
   color: #ffffff;
@@ -488,6 +489,66 @@ form {
 .back button a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.total {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: larger;
+  margin: 20px auto 20px auto;
+}
+
+.empty_cart {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: larger;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact_form {
+  border: 4px solid #f3e9f1;
+}
+.contact_form h3 {
+  text-align: center;
+  padding: 5px;
+  font-weight: 400;
+  color: #D5812D;
+}
+.contact_form .div_name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+.contact_form .div_name .name {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+.contact_form .div_name #valid {
+  width: auto;
+  border-radius: 10px;
+  margin: 20px auto 30px auto;
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  color: #D5812D;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 8px;
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+.contact_form .div_name #valid:hover {
+  background-color: #f3e9f1;
+  transform: scale(1.1);
+  color: #8B50FE;
 }
 
 /*# sourceMappingURL=styles.css.map */

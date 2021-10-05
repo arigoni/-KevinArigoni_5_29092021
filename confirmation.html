@@ -5,14 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Meta-tags principaux -->
-        <title>Accueil - Oribears by Orinoco</title>
-        <meta name="title" content="Accueil - Oribears by Orinoco">
+        <title>Votre panier - Oribears by Orinoco</title>
+        <meta name="title" content="Votre panier - Oribears by Orinoco">
         <meta name="description" content="Oribears est un site de vente en ligne d'oursons faits à la main et personnalisables.">
 
         <!-- CSS et Scripts -->
         <link rel="stylesheet" href="css/styles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/e1e907064b.js" crossorigin="anonymous"></script>
+        <script type='text/javascript' src="scripts/confirmation.js"></script>
 
         <!-- Référencement -->
         <meta name="robots" content="index, follow">
@@ -24,7 +25,7 @@
 
         <!-- Open Graph data / Facebook -->
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Accueil - Oribears by Orinoco" />
+        <meta property="og:title" content="Votre panier - Oribears by Orinoco" />
         <meta property="og:description" content="Oribears est un site de vente en ligne d'oursons faits à la main et personnalisables." />
         <meta property="og:url" content="http://www.example.com/" />
     </head>
@@ -39,11 +40,14 @@
         </header> 
           
         <!-- Main -->
-        <main>
+        <main id="product_page">
           <h1 class="main_title">Ori<span class="main_title_2">bears</span></h1>
-          <h2>Personnalisez votre ourson 100% fait-main !</h2>
-          <div id="teddies" class="mainTeddies"></div>
+          <h2>Récapitulatif de votre commande</h2>
         </main>
+
+        <div class="back">
+            <button><a href="index.html" title="Retour sur la page d'accueil">Retour à l'accueil</a></button>
+        </div>
 
         <!-- Footer -->
         <footer>
@@ -51,9 +55,6 @@
           <div class="footerLink">
             <a href="#" title="Mentions légales">Mentions légales</a> | <a href="#" title="Conditions d'utilisations">Conditions d'utilisations</a> | <a href="mailto:contact@orinoco.fr" title="Contact">Contact</a>
           </div> 
-        </footer>  
-        
-        <!-- Scripts Javascript -->
-        <script type='text/javascript' src="scripts/index.js"></script>
+        </footer>       
     </body>
 </html>

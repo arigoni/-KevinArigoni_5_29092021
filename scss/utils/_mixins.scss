@@ -47,6 +47,13 @@
     }
 }
 
+// paramètre des boutons généraux des formulaire
+@mixin select {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 // Paramètres footer
 @mixin footer {
     margin: auto;

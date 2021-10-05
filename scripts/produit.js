@@ -16,7 +16,7 @@ const getTeddies = async function() {
             const teddyMain = document.getElementById('product_page');
             const teddyH2 = document.createElement('h2');
             teddyMain.appendChild(teddyH2);
-            teddyH2.textContent = "Oribears vous présente " + teddy.name;
+            teddyH2.textContent = "Vous présente " + teddy.name;
 
             // création div de l'ourson
             const teddyDiv = document.createElement('div');

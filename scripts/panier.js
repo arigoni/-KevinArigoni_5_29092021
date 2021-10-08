@@ -22,7 +22,8 @@ if(storedTeddies == null || storedTeddies.length === 0){
     teddyDivCart.appendChild(emptyCart);
     emptyCart.className = "empty_cart";
     emptyCart.textContent = "Votre panier est tristement vide !"
-} else {
+} 
+else {
     // si des éléments sont présents dans le panier : récupération des éléments du panier
     let i = 0;
     for (storedTeddy of storedTeddies) {

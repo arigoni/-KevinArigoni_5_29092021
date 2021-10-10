@@ -90,7 +90,7 @@ const getTeddies = async function() {
             addTeddy.addEventListener("click", function (event) {
                 event.preventDefault();
 
-                // stockage des données du/des teddy souhaité dans localStorage
+            // stockage des données du/des teddy souhaité dans localStorage
                 let teddiesChoosen = {
                     teddyName: teddy.name,
                     teddyId: teddy._id,
@@ -108,22 +108,34 @@ const getTeddies = async function() {
                     console.log(storedTeddies);
                     if (window.confirm(teddy.name + " " + teddyColor + ' a bien été ajouté. Souhaitez vous consulter votre panier ?')) { 
                         window.location.href = "panier.html";
-                    } 
-                    else {
+                    } else {
                         window.location.href = "index.html";
                     }
-                } 
+                } else {
+                    storedTeddies = [];
+                    storedTeddies.push(teddiesChoosen);
+                    localStorage.setItem('newArticle', JSON.stringify(storedTeddies));
+                    console.log(storedTeddies);
+                    if (window.confirm(teddy.name + " " + teddyColor + ' a bien été ajouté. Souhaitez vous consulter votre panier ?')) { 
+                        window.location.href = "panier.html";
+                    } else {
+                        window.location.href = "index.html";
+                    }
+                }
             });
-        } 
-        else {
+        } else {
             console.error('Retour du serveur : ', response.status);
             alert('Erreur rencontrée : ' + response.status);
         } 
-    } 
-    catch (error) {
+    } catch (error) {
         alert("Erreur : " + error);
     }
 };
 
 //appel de la fonction getTeddies
 getTeddies();
+
+/*else if (storedTeddies && teddiesChoosen == storedTeddies) {
+    const findTeddy = teddy.find(x => x['_id'] === id);
+    console.log(findTeddy);
+}*/ 

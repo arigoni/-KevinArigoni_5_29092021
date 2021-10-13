@@ -33,9 +33,6 @@
         }
     }
     img {
-        width: 50%;
-        height: 50%;
-        margin: 50px auto 50px 40px;
         border-radius: 20%;
         box-shadow: $box_shadow;
     }
@@ -44,7 +41,6 @@
         color: $main_color;
         text-align: center;
         margin: auto;
-        width: 40%;
         padding: 20px;
         h3 {
             color: $body_color;

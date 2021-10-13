@@ -27,3 +27,41 @@ header {
         margin: auto;
     }
 }
+
+// responsive
+// écrans moins de 360px
+@media #{$x_small_screen} {
+    header {
+        a img {
+            width: 90%;
+            height: 90%;
+            padding-left: 10px;
+        }
+        &_link {
+            text-decoration: none;
+            color: $main_color;
+            font-family: $main_font;
+            margin: auto 10px auto 5px;
+            text-align: right;
+            font-size: 0.8em;
+        }
+    }
+}
+// écrans plus de 360px et moins de 760 px 
+@media #{$small_screen} {
+    header{
+        a img{
+            width: 90%;
+            height: 90%;
+            padding-left: 15px;
+        }
+        &_link {
+            text-decoration: none;
+            color: $main_color;
+            font-family: $main_font;
+            margin: auto 15px auto 5px;
+            text-align: right;
+            font-size: 1em;
+        }
+    }
+}
